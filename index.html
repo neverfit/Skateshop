@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/03e34c0567.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400" rel="stylesheet">
+
+
+
+    <title>Skateshop nouveau</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="navbar_container">
+            <a href="#home" id="navbar_logo">
+                <img src="img/logo.jpg" alt="">
+            </a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_links" id="home-page">Home</a>
+                    </li>
+                <li class="navbar_item">
+                    <a href="clothes.html" class="navbar_links" id="clothes-page">Clothes</a>
+                        <ul>
+                            <li><a href="#">Hoodies</a></li>
+                            <li><a href="#">Shirts</a></li>
+                            <li><a href="#">Pants</a></li>
+                        </ul>
+                    </li>
+                <li class="navbar_item">
+                    <a href="boards.html" class="navbar_links" id="boards-page">Boards</a>
+                        <ul>
+                            <li><a href="#">Skates</a></li>
+                            <li><a href="#">Longboards</a></li>
+                            <li><a href="#">Cruisers</a></li>
+                        </ul>
+                    </li>
+                <li class="navbar_item">
+                    <a href="shoes.html" class="navbar_links" id="boards-page">Shoes</a>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Brands</a></li>
+                    </ul>
+                    </li>
+                <li class="navbar_btn">
+                    <a href="#contact" class="button" id="sign-up">Contact</a>
+                    </li>  
+            </ul>
+        </div>
+    <!-- CAROUSEL -->
+
+    <div class="carousel">
+        <ul class="slides">
+
+            <input type="radio" name="radio_buttons" id="carousel1" checked />
+
+            <li class="slide_container">
+                <div class="slide_image">
+                    <img src="img/carousel7.jpg" alt="">
+                </div>
+
+                <div class="carousel_controls">
+                    <label for="carousel3" class="prev_slide">
+                        <span> < </span>
+                    </label>
+                    <label for="carousel2" class="next_slide">
+                        <span> > </span>
+                    </label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio_buttons" id="carousel2" />
+
+            <li class="slide_container">
+                <div class="slide_image">
+                    <img src="img/carousel9.jpg" alt="">
+                </div>
+
+                <div class="carousel_controls">
+                    <label for="carousel1" class="prev_slide">
+                        <span> < </span>
+                    </label>
+                    <label for="carousel3" class="next_slide">
+                        <span> > </span>
+                    </label>
+                </div>
+            </li>
+
+            <input type="radio" name="radio_buttons" id="carousel3" />
+
+            <li class="slide_container">
+                <div class="slide_image">
+                    <img src="img/carousel4.jpg" alt="">
+                </div>
+
+                <div class="carousel_controls">
+                    <label for="carousel2" class="prev_slide">
+                        <span> < </span>
+                    </label>
+                    <label for="carousel1" class="next_slide">
+                        <span> > </span>
+                    </label>
+                </div>
+            </li>
+
+            <div class="carousel_dots">
+                <label for="carousel1" class="carousel_dot" id="img_dot_1"></label>
+                <label for="carousel2" class="carousel_dot" id="img_dot_2"></label>
+                <label for="carousel3" class="carousel_dot" id="img_dot_3"></label>
+            </div>
+        </ul>
+    </div>
+
+
+    <!-- PRODUCTS -->
+    <div class="products">
+        <div class="products_container">
+            <div class="products_img">
+                <a href="shoes.html" id="shoes">
+                    <img src="img/skateshoes.jpg" alt="">
+                    
+                </a>
+                <div class="title">Shoes</div>
+            </div>
+            <div class="products_img">
+                <a href="#shoes" id="pants">
+                    <img src="img/skatepants.jpg" alt="">
+                    
+                </a>
+                <div class="title" id="pantstitle">Pants</div>
+            </div>
+            <div class="products_img">
+                <a href="clothes.html" id="hoodies">
+                    <img src="img/skatehoodies.jpg" alt="">
+                    
+                </a>
+                <div class="title" >Hoodies</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- NOUVEAUTES -->
+    
+
+    <div class="nouveautes">
+        <h1>Nouveautés</h1>
+        <div class="nouveautes_container">
+            <div class="nouveautes_card">
+                <a href="" class="item1">
+                    <img src="img/carousel/dcshoes.jpg" alt="">
+                </a>
+            </div>
+            <div class="nouveautes_card">
+                <a href="" class="item2">
+                    <img src="img//carousel/hoodie.jpg" alt="">
+                </a>
+            </div>
+            <div class="nouveautes_card">
+                <a href="" class="item3">
+                    <img src="img/carousel/vans2.jpg" alt="">
+                </a>
+            </div>
+            <div class="nouveautes_card">
+                <a href="" class="item4">
+                    <img src="img/carousel/skate1.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- VIDEOS -->
+
+    <div class="videos">
+        <div class="videos_container">
+            <div class="video">
+                <h1>Le Shop</h1>
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/rWSHjegY-WY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            <div class="video">
+                <h1>Actu</h1>
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/x1NDwX_ihHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <!--  NEWSLETTER -->
+
+        <div class="newsletter">
+            <div class="newsletter_container">
+                <h1>Newsletter</h1>
+                <input type="email" name="email" id="" placeholder="Veuillez entrer votre email.">
+            </div>
+        </div>
+
+    <!-- FOOTER -->
+    <div class="footer_container">
+        <div class="footer_links">
+            <div class="footer_link_wrapper">
+                <div class="footer_link_items">
+                    <h2>About Us</h2>
+                    <a href="/">Our Story</a>
+                    <a href="/">Testimonials</a>
+                    <a href="/">Shops</a>
+                    <a href="/">Terms of service</a>
+                </div>
+
+                <div class="footer_link_items">
+                    <h2>Contact Us</h2>
+                    <a href="/">Contact</a>
+                    <a href="/">Support</a>
+                    <a href="/">Locations</a>
+                    <a href="/">Sponsorships</a>
+                </div>
+            </div>
+
+            <div class="footer_link_wrapper">
+                <div class="footer_link_items">
+                    <h2>Videos</h2>
+                    <a href="/">Submit a video</a>
+                    <a href="/">Ambassadors</a>
+                    <a href="/">Agency</a>
+                    <a href="/">Influencer</a>
+                </div>
+
+                <div class="footer_link_items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a>
+                    <a href="/">Facebook</a>
+                    <a href="/">Tiktok</a>
+                    <a href="/">Youtube</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="social_media">
+            <div class="social_media_wrap">
+
+                 <div class="footer_logo">
+                     <img src="img/logo.jpg" alt="" id="footer_logo">
+                </div>
+
+                <p class="website_rights">Skate.fr 2020. All rights reserved</p>
+                        
+                <div class="social_icons">
+                    <a href="" class="social_icon_link" target="_blank">
+                         <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" class="social_icon_link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="social_icon_link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="" class="social_icon_link" target="_blank">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
